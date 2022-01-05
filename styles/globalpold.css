@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  --black: #292929;
+  --blue: #6cbce5;
+  --dark-blue: #247fad;
+  --white: #faf1f1;
+  --orange: #f4600d;
+
+  font-size: 52%;
+}
+
+/*body {
+  display: flex;
+  height: 100%;
+  background: var(--blue);
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  border-radius: 5px;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--blue);
+}
+
+.cadastro {
+  width: 16rem;
+  height: 20rem;
+  display: flex;
+  padding-top: -50rem;
+
+  background: var(--dark-blue);
+}
+
+.content header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content header {
+  background-color: var(--black);
+}
+
+.imagetop img {
+  width: 100%;
+  height: auto;
+  opacity: 70%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tit1 h2 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 30px;
+}
+
+.tit2 h1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  font-size: 60px;
+}
+
+.tit3 h2 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  font-size: 36px;
+}
+
+.imagefooter img {
+  width: 100%;
+  height: auto;
+  opacity: 70%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input,
+button .button {
+  width: auto;
+  height: 3rem;
+}
+
+.textitulo h2 {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textitulo h1 {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragrafo {
+  color: var(--black);
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+  width: 170rem;
+  height: 100%;
+  padding-left: 20rem;
+  padding-right: 20rem;
+
+  background: var(--white);
+}
+
+.paragrafo h2 {
+  color: var(--black);
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+button,
+.button {
+  background-color: var(--orange);
+  color: var(--white);
+  display: relative;
+  line-height: 3;
+  width: 25rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover,
+.button:hover {
+  filter: brightness(1.2);
+}
+
+.formula {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  background: var(--white);
+  top: 60%;
+  right: 10%;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+}
+
+.botao {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  background-color: var(--orange);
+  top: 50%;
+}
+
+.box {
+  width: 32rem;
+  height: 49rem;
+  position: absolute;
+  display: flex;
+  background: var(--dark-blue);
+  top: 50%;
+  right: 9%;
+  border-radius: 1.5rem;
+}
+
+.titform {
+  position: absolute;
+  display: flex;
+  top: 52%;
+  right: 15%;
+  z-index: 1;
+  color: var(--white);
+}
+
+
+
+
+
+.campo input[type='text'],
+.campo input[type='mail'],
+.campo select {
+  padding: 2rem;
+} */

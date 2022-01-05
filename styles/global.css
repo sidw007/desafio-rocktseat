@@ -1,0 +1,135 @@
+html {
+  --black: #292929;
+  --blue: #6cbce5;
+  --dark-blue: #247fad;
+  --white: #faf1f1;
+  --orange: #f4600d;
+}
+
+.logotipo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: var(--black);
+}
+
+.titform {
+  position: relative;
+  display: block;
+  justify-content: center;
+  /*top: 2%;/*
+  /*left: 68%;*/
+  padding-bottom: 2rem;
+  z-index: 1;
+  color: var(--white);
+  font-size: 22px;
+}
+
+.formula {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 40%;
+  right: 15%;
+  padding-top: 3rem;
+  /*padding-left: 1rem;
+  padding-right: 0.5rem;*/
+  padding-bottom: 3rem;
+  justify-content: center;
+  border-radius: 22px;
+  background: #247fad;
+  box-shadow: 5px 5px 5px rgb(167, 161, 161);
+}
+
+@media (max-width: 600px) {
+  .formula {
+    display: none;
+  }
+}
+
+fieldset {
+  border: none;
+  background: #ffff;
+  width: 100px;
+}
+
+.campo label {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: var(--black);
+  display: block;
+}
+
+.campo input[type='text'],
+.campo input[type='mail'],
+.campo select {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.campo input,
+select {
+  border-radius: 5px;
+  width: 250px;
+}
+
+.empresa {
+  position: relative;
+  display: block;
+  justify-content: center;
+  /*top: 107%;*/
+  /*left: 70%;*/
+  color: var(--white);
+}
+
+button,
+.button {
+  background-color: var(--orange);
+  color: var(--white);
+  display: relative;
+  line-height: 3;
+  width: 15rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover,
+.button:hover {
+  filter: brightness(1.5);
+}
+
+.empresa {
+  text-decoration: underline;
+  cursor: pointer;
+  padding-top: 1rem;
+  color: #247fad;
+}
+
+.paragrafo {
+  color: var(--black);
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.paragrafo p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
